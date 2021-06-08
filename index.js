@@ -213,8 +213,17 @@ function start(client) {
           console.error('Error when sending: ', erro); //return object error
         });
     }
-    
+    else  {
+        client
+          //.sendText(message.from, 'Saudações! Primeiramente é uma satisfação enviar o meme solicitado! E responda essa mensagem com a palavra “sim” para receber nossas publicações de maneira antecipada, participar de concursos  e ganhar presentes! Relatar problemas no envio dos memes podem ajudam a melhorar nossos serviços, responda com a palavra “erro” e estaremos dispostos a solucionar a  questão!  Siga nossas redes sociais e fique ligado em todas as novidades!')
+          .sendText(message.from,'Saudações! 😊\nPrimeiramente é uma satisfação enviar o meme solicitado!😁\n E responda essa mensagem com a palavra “sim” para receber nossas publicações de maneira antecipada, participar de concursos  e ganhar presentes!🎁\nRelatar problemas no envio dos memes ajudam a melhorar nossos serviços, responda com a palavra “erro” e estaremos dispostos a solucionar a sua questão! ⚒️\n Siga nossas redes sociais e fique ligado em todas as novidades!📲\nFacebook: https://www.facebook.com/profile.php?id=100066822481013\nYouTube: https://www.youtube.com/channel/UC-5PvSsBmAT2inSBGRX0RdQ\nTiktok: https://www.tiktok.com/@downloadmemes?lang=pt-BR\nInstagram : https://www.instagram.com/downloadmemes/\nFacebook: https://www.facebook.com/Download-Memes-100409855531714\nKawaii: http://s.kw.ai/8Qz2ayA0')
+          .then((result) => {
+            console.log('Result: ', result); //return object success
+          })
+          .catch((erro) => {
+            console.error('Error when sending: ', erro); //return object error
+          });
+      }
   
     });
 }
-
