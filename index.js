@@ -19,7 +19,7 @@ function start(client) {
           console.error('Error when sending: ', erro); //return object error
         });
     }
-    else if (message.body === 'fbbVCpoHM#ch' && message.isGroupMsg === false) {
+    else if (message.body === 'fbbVCpoHMch' && message.isGroupMsg === false) {
       client
         .sendImageAsSticker(message.from,'https://downloadmemes.com/wp-content/uploads/2021/06/STK-20210421-WA0033.png')
         .then((result) => {
@@ -69,7 +69,7 @@ function start(client) {
               .catch((erro) => {
                 console.error('Error when sending: ', erro); //return object error
               }); }
-    else if (message.body === 'v)z[ic&y;L$nvJz' && message.isGroupMsg === false) {
+    else if (message.body === 'v)z[ic' && message.isGroupMsg === false) {
       client
         
         
@@ -117,7 +117,7 @@ function start(client) {
           console.error('Error when sending: ', erro); //return object error
         });
     }
-    else if (message.body === '6KEg(02,2=v1#v6' && message.isGroupMsg === false) {
+    else if (message.body === '6KEg(02,2=v1' && message.isGroupMsg === false) {
       client
         
         
@@ -189,7 +189,7 @@ function start(client) {
           console.error('Error when sending: ', erro); //return object error
         });
     }
-    else if (message.body === '=0Q(#2Hvmgsg$Vq' && message.isGroupMsg === false) {
+    else if (message.body === '=0Q(2Hvmgsg$Vq' && message.isGroupMsg === false) {
       client
         
         
